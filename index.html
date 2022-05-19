@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mark Bezdidko</title>
+	<meta http-equiv="Content-Type" content="text/html; charset-utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<script type="text/javascript" src="js/functions.js"></script>
+	<link rel="stylesheet" href="styles/main.css" type="text/css" />
+	<link rel="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<!-- jQuery 1.8 or later, 33 KB -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- Fotorama from CDNJS, 19 KB -->
+	<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</head>
+<body img src="html5.jpg" alt="html5" /> 
+	<div class="parent">
+		<div class="block">
+			<header>
+				<div id="myPhoto">
+					<img src="images/photo.png" alt="My photo"/>
+				</div>
+				<div id="myName">
+					<div>
+						<h1>Mark Bezdidko</h1>
+						<h3>Web Developer</h3>
+					</div>
+					<hr align="center" width="100%" size="1" color="gray" />
+					<table>
+						<tr>
+							<th scope="row">Age</th>
+							<td>25</td>
+						</tr>
+						<tr>
+							<th scope="row">Adress</th>
+							<td>Ukraine, Irpin' 08203</td>
+						</tr>
+						<tr>
+							<th scope="row">Email</th>
+							<td>markbezdidko22@gmail.com <br> mark.bezdidko@icloud.com</td>
+						</tr>
+					</table>
+					<ul id="social">
+						<li>
+							<a href="">
+								<img src="images/instagram.png"/>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="images/telegram.png"/>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="images/viber.png"/>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="images/whatsapp.png"/>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="images/facebook.png"/>
+							</a>
+						</li>
+					</ul>
+				</div>		
+			</header>
+			<div id="conteiner">
+				<hr align="center" width="90%" size="2" color="gray" />
+				<div id="info">
+					<p style="text-indent: 110px">
+						Hi! My name is Mark and i'am really glad that you are reading my CV.<br>
+						Let me tell you smth about myself.
+						First of all i'm Ukrainian and i'm very proud of it!
+						I was born in the city named Sumy, which is located in the northeast of Ukraine.
+						I grew up here. When i was 17 i entered Sumy State University.
+						Sumy State University is very powerful, it includes almost 12 thousand of students and ranks fourth among Ukrainian universities.
+						Also i took part in Work and Travel program and i was living in the United States of America for 4 months.
+						After the graduation from the university and received a degree in computer science.
+						After that i moved to the hero city named Irpin'.
+						I was working in a good company, i was spanding time with my family and we were living normal Ukrainian life
+						till russia started war with us. So we had to leave our city.
+						I'm not a soldier and i had never hold the weapon in my hands, so i I decided to help my country with my brain.<br>
+						<p style="text-align: center">I hope to have a good cooperation with you!</p>
+					</p>
+				</div>
+			</div>
+			<div id="skills">
+				<hr align="center" width="90%" size="2" color="gray" />
+				<div>
+					<h3 style="text-align:center">My skills</h3>
+					<table>
+						<tr>
+							<td>
+								<div class="wrapper__html">
+									<div class="bar__html"></div>
+									<div class="progress__bar__html"></div>
+									<label><p id="text">HTML<p></label>
+									<script>
+										(function progress (e) {
+										let processBar = document.querySelector(".progress__bar__html"),
+										width = 10;
+										setProgress = setInterval(progressBar, 100);
+  
+										function progressBar() {
+										if (width >= 95)
+										{
+										clearInterval(setProgress);
+										} else {
+										width += 1;
+										processBar.style.width = width + "%";
+										processBar.textContent = width + " %";
+										}
+										}
+										}());
+									</script>
+								</div>	
+							</td>
+							<td>
+								<div class="wrapper__css">
+									<div class="bar__css"></div>
+									<div class="progress__bar__css"></div>
+									<label><p id="text">CSS<p></label>
+									<script>
+										(function progress (e) {
+										let processBar = document.querySelector(".progress__bar__css"),
+										width = 10;
+										setProgress = setInterval(progressBar, 100);
+  
+										function progressBar() {
+										if (width >= 88)
+										{
+										clearInterval(setProgress);
+										} else {
+										width += 1;
+										processBar.style.width = width + "%";
+										processBar.textContent = width + " %";
+										}
+										}
+										}());
+									</script>
+								</div>	
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="wrapper__js">
+									<div class="bar__js"></div>
+									<div class="progress__bar__js"></div>
+									<label><p id="text">JavaScript<p></label>
+									<script>
+										(function progress (e) {
+										let processBar = document.querySelector(".progress__bar__js"),
+										width = 10;
+										setProgress = setInterval(progressBar, 100);
+  
+										function progressBar() {
+										if (width >= 75)
+										{
+										clearInterval(setProgress);
+										} else {
+										width += 1;
+										processBar.style.width = width + "%";
+										processBar.textContent = width + " %";
+										}
+										}
+										}());
+									</script>
+								</div>	
+							</td>
+							<td>
+								<div class="wrapper__ps">
+									<div class="bar__ps"></div>
+									<div class="progress__bar__ps"></div>
+									<label><p id="text">Photoshop<p></label>
+									<script>
+										(function progress (e) {
+										let processBar = document.querySelector(".progress__bar__ps"),
+										width = 10;
+										setProgress = setInterval(progressBar, 100);
+  
+										function progressBar() {
+										if (width >= 70)
+										{
+										clearInterval(setProgress);
+										} else {
+										width += 1;
+										processBar.style.width = width + "%";
+										processBar.textContent = width + " %";
+										}
+										}
+										}());
+									</script>
+								</div>	
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="wrapper__php">
+									<div class="bar__php"></div>
+									<div class="progress__bar__php"></div>
+									<label><p id="text">PHP<p></label>
+									<script>
+										(function progress (e) {
+										let processBar = document.querySelector(".progress__bar__php"),
+										width = 10;
+										setProgress = setInterval(progressBar, 100);
+  
+										function progressBar() {
+										if (width >= 51)
+										{
+										clearInterval(setProgress);
+										} else {
+										width += 1;
+										processBar.style.width = width + "%";
+										processBar.textContent = width + " %";
+										}
+										}
+										}());
+									</script>
+								</div>	
+							</td>
+							<td>
+								<div class="wrapper__java">
+									<div class="bar__java"></div>
+									<div class="progress__bar__java"></div>
+									<label><p id="text">Java<p></label>
+									<script>
+										(function progress (e) {
+										let processBar = document.querySelector(".progress__bar__java"),
+										width = 10;
+										setProgress = setInterval(progressBar, 100);
+  
+										function progressBar() {
+										if (width >= 40)
+										{
+										clearInterval(setProgress);
+										} else {
+										width += 1;
+										processBar.style.width = width + "%";
+										processBar.textContent = width + " %";
+										}
+										}
+										}());
+									</script>
+								</div>	
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			
+			<div id="education">
+				<hr align="center" width="90%" size="2" color="gray" />
+				<h3 style="text-align:center">My education</h3>
+				<div id="university">
+					<p id="general">University<p>
+					<p id="description">Sumy State University<p>
+					<p id="general">Degree<p>
+					<p id="description">Bachelor<p>
+					<p id="general">Program Subject Area<p>
+					<p id="description">Computer Science<p>
+					<p id="general">Study program<p>
+					<p id="description">Information Technologies of Design<p>
+					<p id="general">Professional qualification<p>
+					<p id="description">Information Technology Specialist<p>
+					<p id="general">Additional education<p>
+					<p id="description">Private HTML5 & CSS3 courses<p>
+					<p id="description">Private JavaScript and jQuery courses<p>
+					<p id="description">Private React and Ajax courses<p>
+					<p id="description">Private PHP and MySQL courses<p>
+					<p id="description">Private Java courses<p>
+				</div>
+				<div class="fotorama"
+						style="width: 500px"
+						data-allowfullscreen="native"
+						data-nav="thumbs">
+					<img src="images/Java_mark.png">
+					<img src="images/php_mark.png">
+					<img src="images/JavaScript_mark.png">
+					<img src="images/HTML_mark.png">
+					<img src="images/image1.jpeg">
+					<img src="images/image0.jpeg">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+
+</body>
+</html>
